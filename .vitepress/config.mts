@@ -10,6 +10,7 @@ export default defineConfig({
     logo: { src: "/assets/server-icon.png" },
     nav: defineNav(),
     lastUpdatedText: "最終更新日",
+    aside: false,
     sidebar: {
       "/gameplay/": { base: "/gameplay/", items: defineGameplaySidebarItems() },
       "/command/": { base: "/command/", items: defineCommandSidebarItems() },
@@ -44,7 +45,7 @@ function defineNav(): DefaultTheme.NavItem[] {
   return [
     {
       text: "ゲームプレイガイド",
-      link: "/gameplay/getting-started",
+      link: "/gameplay/manual/getting-started",
       activeMatch: "/gameplay/",
     },
     { text: "コマンドガイド", link: "/command/overview" },
@@ -56,7 +57,10 @@ function defineGameplaySidebarItems(): DefaultTheme.SidebarItem[] {
     {
       text: "ゲームマニュアル",
       collapsed: false,
-      items: [{ text: "サーバへの参加方法", link: "getting-started" }],
+      items: [
+        { text: "はじめる", link: "manual/getting-started" },
+        { text: "序盤の動き方", link: "manual/tutorial" },
+      ],
     },
   ];
 }
