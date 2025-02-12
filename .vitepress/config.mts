@@ -7,8 +7,9 @@ export default defineConfig({
   srcDir: "./src",
   lastUpdated: true,
   themeConfig: {
-    logo: { src: "/assets/server-icon.png", width: 24, height: 24 },
+    logo: { src: "/assets/server-icon.png" },
     nav: defineNav(),
+    lastUpdatedText: "最終更新日",
     sidebar: {
       "/gameplay/": { base: "/gameplay/", items: defineGameplaySidebarItems() },
       "/command/": { base: "/command/", items: defineCommandSidebarItems() },
@@ -24,7 +25,11 @@ export default defineConfig({
         link: "https://youtube.com/channel/UCRa1dzpugnk83WH6VW5e-og",
       },
     ],
-    lastUpdatedText: "最終更新日",
+    footer: {
+      message:
+        "Minecraft は Mojang Stadio の登録商標です。本サーバーは Mojang Stadio社から承認されておらず、Mojang Stadio社とは関係ありません。",
+      copyright: "© 2025 seichi.click network",
+    },
   },
 });
 
