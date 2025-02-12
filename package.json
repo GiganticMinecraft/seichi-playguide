@@ -1,0 +1,26 @@
+{
+  "name": "seichi-playguide",
+  "author": {
+    "name": "GiganticMinecraft",
+    "url": "https://seichi.click"
+  },
+  "packageManager": "pnpm@10.3.0",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "vitepress": "^1.6.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@biomejs/biome"
+    ]
+  }
+}
