@@ -5,6 +5,7 @@
     "url": "https://seichi.click"
   },
   "packageManager": "pnpm@10.3.0",
+  "license": "MIT",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
