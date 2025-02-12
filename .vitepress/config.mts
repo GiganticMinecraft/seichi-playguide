@@ -1,14 +1,13 @@
-import { type DefaultTheme, defineConfig } from "vitepress";
+import { type DefaultTheme, type HeadConfig, defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "GiganticMinecraft プレイガイド",
+  title: "seichi-playguide",
   description: "ギガンティック☆整地鯖の遊び方や基本情報をまとめた総合ガイド",
   srcDir: "./src",
-  outDir: "./dist",
   lastUpdated: true,
   themeConfig: {
-    // logo: { src: '/', width: 24, height: 24 },
+    logo: { src: "/assets/server-icon.png", width: 24, height: 24 },
     nav: defineNav(),
     sidebar: {
       "/gameplay/": { base: "/gameplay/", items: defineGameplaySidebarItems() },
@@ -28,6 +27,13 @@ export default defineConfig({
     lastUpdatedText: "最終更新日",
   },
 });
+
+function defineHead(): HeadConfig[] {
+  return [
+    // Add favicon
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+  ];
+}
 
 function defineNav(): DefaultTheme.NavItem[] {
   return [
