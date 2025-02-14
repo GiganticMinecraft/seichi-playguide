@@ -62,6 +62,11 @@ function defineGameplaySidebarItems(): DefaultTheme.SidebarItem[] {
         { text: "序盤の動き方", link: "manual/tutorial" },
       ],
     },
+    {
+      text: "トラベルガイド",
+      collapsed: false,
+      items: [{ text: "ワールド間移動", link: "travel/world" }],
+    },
   ];
 }
 
