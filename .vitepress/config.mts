@@ -48,7 +48,7 @@ function defineNav(): DefaultTheme.NavItem[] {
       link: "/gameplay/manual/getting-started",
       activeMatch: "/gameplay/",
     },
-    { text: "コマンドガイド", link: "/command/overview" },
+    { text: "コマンドガイド", link: "/command/chat-category" },
   ];
 }
 
@@ -67,10 +67,8 @@ function defineGameplaySidebarItems(): DefaultTheme.SidebarItem[] {
 
 function defineCommandSidebarItems(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "はじめに", link: "overview" },
-    { text: "チャット", link: "chat-category" },
     {
-      text: "コマンドガイド",
+      text: "一般コマンド",
       collapsed: false,
       items: [{ text: "チャット", link: "chat-category" }],
     },

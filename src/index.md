@@ -12,7 +12,7 @@ hero:
       link: /gameplay/manual/getting-started
     - theme: brand
       text: コマンドガイド
-      link: /command
+      link: /command/overview
     - theme: alt
       text: リポジトリ (外部ページへ飛びます)
       link: https://github.com/GiganticMinecraft/seichi-playguide
