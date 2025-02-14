@@ -70,7 +70,10 @@ function defineCommandSidebarItems(): DefaultTheme.SidebarItem[] {
     {
       text: "一般コマンド",
       collapsed: false,
-      items: [{ text: "チャット", link: "chat-category" }],
+      items: [
+        { text: "チャット", link: "chat-category" },
+        { text: "移動", link: "movement-category" },
+      ],
     },
   ];
 }
