@@ -12,6 +12,7 @@ footer: true
 
 | コマンド名 | 説明 |
 | ---- | :----: |
+| [/fly](/command/general/movement/fly) | 飛行モードの切り替えを行います |
 | [/hub](/command/general/movement/hub) | ロビーサーバーへ移動します <Badge type="tip" text="どこでも実行可" /> |
 | [/spawn](/command/general/movement/spawn) | メインワールドへ移動します |
 | [/mvspawn](/command/general/movement/mvspawn) |　今いるワールドのスポーン地点に移動します |
