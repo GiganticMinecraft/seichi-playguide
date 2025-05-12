@@ -1,5 +1,5 @@
 ---
-title: チャット
+title: チャット系
 editLink: true
 navbar: true
 sidebar: true
@@ -8,7 +8,7 @@ lastUpdated: true
 footer: true
 ---
 
-# チャット
+# チャット系
 
 | コマンド名 | 説明 |
 | ---- | :----: |

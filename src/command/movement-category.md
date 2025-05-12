@@ -1,5 +1,5 @@
 ---
-title: 移動
+title: 移動系
 editLink: true
 navbar: true
 sidebar: true
@@ -8,7 +8,7 @@ lastUpdated: true
 footer: true
 ---
 
-# 移動
+# 移動系
 
 | コマンド名 | 説明 |
 | ---- | :----: |
