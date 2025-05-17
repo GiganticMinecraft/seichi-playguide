@@ -60,6 +60,7 @@ function defineGameplaySidebarItems(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "はじめる", link: "manual/getting-started" },
         { text: "序盤の動き方", link: "manual/tutorial" },
+        { text: "土地保護", link: "manual/protection"}
       ],
     },
     {
