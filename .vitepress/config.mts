@@ -61,12 +61,12 @@ function defineGameplaySidebarItems(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "はじめる", link: "manual/getting-started" },
         { text: "序盤の動き方", link: "manual/tutorial" },
-        { text: "土地保護", link: "manual/protection"},
-        { text: "実績・二つ名", link: "manual/nickname"},
-        { text: "MineStack", link: "manual/minestack"},
-        { text: "トレードシステム", link: "manual/trade"},
-        { text: "Mebius", link: "manual/mebius"},
-        { text: "公共施設", link: "manual/facilities"}
+        { text: "土地保護", link: "manual/protection" },
+        { text: "実績・二つ名", link: "manual/nickname" },
+        { text: "MineStack", link: "manual/minestack" },
+        { text: "トレードシステム", link: "manual/trade" },
+        { text: "Mebius", link: "manual/mebius" },
+        { text: "公共施設", link: "manual/facilities" },
       ],
     },
     {
@@ -93,7 +93,7 @@ function defineGameplaySidebarItems(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "ワールド間移動", link: "travel/world" },
-        { text: "サーバー間移動", link: "travel/server" }
+        { text: "サーバー間移動", link: "travel/server" },
       ],
     },
   ];
@@ -108,15 +108,13 @@ function defineCommandSidebarItems(): DefaultTheme.SidebarItem[] {
         { text: "チャット系", link: "chat-category" },
         { text: "移動系", link: "movement-category" },
         { text: "保護系", link: "protection-category" },
-        { text: "SeichiAssist", link: "seichiassist" }
+        { text: "SeichiAssist", link: "seichiassist" },
       ],
     },
     {
       text: "役職コマンド",
       collapsed: true,
-      items: [
-        { text: "Observer", link: "observer-category" },
-      ]
-    }
+      items: [{ text: "Observer", link: "observer-category" }],
+    },
   ];
 }
