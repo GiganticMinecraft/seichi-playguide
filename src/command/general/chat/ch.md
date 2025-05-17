@@ -10,7 +10,7 @@ footer: true
 
 # /ch <Badge type="info" text="LunaChat" />
 
-チャンネルチャットについて詳しくは [ゲームプレイガイド]() をご確認ください．
+チャンネルチャットについて詳しくは [ゲームプレイガイド](../../../gameplay/manual/channel-chat.md) をご確認ください．
 
 ::: tip LunaChat の仕様について
 

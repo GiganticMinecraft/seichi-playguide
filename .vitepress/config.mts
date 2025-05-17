@@ -67,6 +67,7 @@ function defineGameplaySidebarItems(): DefaultTheme.SidebarItem[] {
         { text: "トレードシステム", link: "manual/trade" },
         { text: "Mebius", link: "manual/mebius" },
         { text: "公共施設", link: "manual/facilities" },
+        { text: "チャンネルチャット", link: "manual/channel-chat" },
       ],
     },
     {

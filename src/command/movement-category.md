@@ -20,7 +20,7 @@ footer: true
 | [/home](/command/general/movement/home) | ホームポイントを管理します |
 | [/server](/command/general/movement/server) |　指定したサーバーへ移動します  <Badge type="tip" text="どこでも実行可" /> |
 | [/tpa](/command/general/movement/tpa) | 指定したプレイヤーにテレポート**する**リクエストを送信します |
-| [/tpahere](/command/general/movement/) | 指定したプレイヤーにテレポート**してもらう**リクエストを送信します |
+| [/tpahere](/command/general/movement/tpahere) | 指定したプレイヤーにテレポート**してもらう**リクエストを送信します |
 | [/tpaccept](/command/general/movement/tpaccept) | テレポートリクエストを承認します |
 | [/tpdeny](/command/general/movement/tpdeny) | テレポートリクエストを却下します |
 | [/tpacencel](/command/general/movement/tpacencel) | テレポートリクエストをキャンセルします |
