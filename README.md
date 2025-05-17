@@ -2,7 +2,14 @@
 
 ギガンティック☆整地鯖の遊び方や基本情報をまとめた総合ガイド．
 
-本ガイドは開発中のため，正式な公開には至っていません．
+## プレイヤーの方へ
+
+本ガイドは [playguide.seichi.click](https://playguide.seichi.click/) で公開されています．
+
+## 開発者・運営の方へ
+
+本ガイドの編集ガイドは [CONTRIBUTING.md](./CONTRIBUTING.md) を参照してください．
+
 
 ## ライセンス
 
