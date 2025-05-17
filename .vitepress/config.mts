@@ -26,6 +26,42 @@ export default defineConfig({
         link: "https://youtube.com/channel/UCRa1dzpugnk83WH6VW5e-og",
       },
     ],
+    search: {
+      provider: "local",
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: "検索",
+                buttonAriaLabel: "検索",
+              },
+              modal: {
+                displayDetails: "表示",
+                resetButtonTitle: "リセット",
+                backButtonTitle: "戻る",
+                noResultsText: "結果が見つかりませんでした",
+                footer: {
+                  selectText: "選択",
+                  selectKeyAriaLabel: "選択",
+                  navigateText: "ナビゲート",
+                  navigateUpKeyAriaLabel: "上",
+                  navigateDownKeyAriaLabel: "下",
+                  closeText: "閉じる",
+                  closeKeyAriaLabel: "閉じる",
+                },
+              },
+            },
+          },
+        },
+        async _render(src, env, md) {
+          const html = await md.render(src, env);
+          // データベースの場合は、検索結果を表示しない
+          if (env.relativePath.startsWith("database/")) return "";
+          return html;
+        },
+      },
+    },
     footer: {
       message:
         "Minecraft は Mojang Stadio の登録商標です。本サーバーは Mojang Stadio社から承認されておらず、Mojang Stadio社とは関係ありません。",
