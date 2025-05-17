@@ -12,6 +12,7 @@ footer: true
 
 | コマンド名 | 説明 |
 | ---- | :----: |
+| [/ec](/command/general/SeichiAssist/ec) | どこでもエンダーチェスト を開きます |
 | [/ef](/command/general/SeichiAssist/ef) | 採掘上昇効果の切り替え・内訳表示の設定を変更します |
 | [/fc](/command/general/SeichiAssist/fc) | FastCraft を開きます |
 | [/fd](/command/general/SeichiAssist/fd) | 4次元ポケット を開きます |
