@@ -8,6 +8,7 @@ lastUpdated: true
 footer: false
 ---
 
-# ゲームデータベース
+# データベース
 
 - [実績・二つ名](./nickname.md)
+- [キャラクター](./character.md)
