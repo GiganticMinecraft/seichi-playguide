@@ -63,7 +63,29 @@ function defineGameplaySidebarItems(): DefaultTheme.SidebarItem[] {
         { text: "序盤の動き方", link: "manual/tutorial" },
         { text: "土地保護", link: "manual/protection"},
         { text: "実績・二つ名", link: "manual/nickname"},
-        { text: "MineStack", link: "manual/minestack"}
+        { text: "MineStack", link: "manual/minestack"},
+        { text: "トレードシステム", link: "manual/trade"},
+        { text: "Mebius", link: "manual/mebius"},
+        { text: "公共施設", link: "manual/facilities"}
+      ],
+    },
+    {
+      text: "整地ガイド",
+      collapsed: false,
+      items: [
+        { text: "整地スキル", link: "seichi/skill" },
+        { text: "マナシステム", link: "seichi/mana" },
+        { text: "レベルシステム", link: "seichi/level" },
+        { text: "ガチャシステム", link: "seichi/gacha" },
+        { text: "エフェクト", link: "seichi/effect" },
+      ],
+    },
+    {
+      text: "建築ガイド",
+      collapsed: false,
+      items: [
+        { text: "建築スキル", link: "building/skill" },
+        { text: "レベルシステム", link: "building/level" },
       ],
     },
     {

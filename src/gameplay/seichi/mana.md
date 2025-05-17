@@ -1,5 +1,5 @@
 ---
-title: 序盤の動き方
+title: マナシステム
 editLink: true
 navbar: true
 sidebar: true
@@ -8,7 +8,7 @@ lastUpdated: true
 footer: true
 ---
 
-# 序盤の動き方
+# マナシステム
 
 ::: warning
 
