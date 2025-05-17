@@ -21,7 +21,11 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "@biomejs/biome"
+      "@biomejs/biome",
+      "esbuild"
+    ],
+    "ignoredBuiltDependencies": [
+      "esbuild"
     ]
   }
 }
