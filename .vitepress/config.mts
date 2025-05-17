@@ -29,7 +29,7 @@ export default defineConfig({
     footer: {
       message:
         "Minecraft は Mojang Stadio の登録商標です。本サーバーは Mojang Stadio社から承認されておらず、Mojang Stadio社とは関係ありません。",
-      copyright: "© 2025 seichi.click network",
+      copyright: "© 2019 - 2025 seichi.click network",
     },
   },
 });
@@ -65,7 +65,10 @@ function defineGameplaySidebarItems(): DefaultTheme.SidebarItem[] {
     {
       text: "トラベルガイド",
       collapsed: false,
-      items: [{ text: "ワールド間移動", link: "travel/world" }],
+      items: [
+        { text: "ワールド間移動", link: "travel/world" },
+        { text: "サーバー間移動", link: "travel/server" }
+      ],
     },
   ];
 }
