@@ -82,5 +82,12 @@ function defineCommandSidebarItems(): DefaultTheme.SidebarItem[] {
         { text: "SeichiAssist", link: "seichiassist" }
       ],
     },
+    {
+      text: "役職コマンド",
+      collapsed: true,
+      items: [
+        { text: "Observer", link: "observer-category" },
+      ]
+    }
   ];
 }

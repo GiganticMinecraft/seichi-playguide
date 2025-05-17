@@ -16,3 +16,6 @@ footer: true
   - [チャット系](./chat-category.md)
   - [移動系](./movement-category.md)
   - [保護系](./protection-category.md)
+  - [SeichiAssist](./seichiassist.md)
+
+- [Observer](./observer-category.md)
