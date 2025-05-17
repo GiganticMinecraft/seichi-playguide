@@ -49,6 +49,7 @@ function defineNav(): DefaultTheme.NavItem[] {
       activeMatch: "/gameplay/",
     },
     { text: "コマンドガイド", link: "/command/overview" },
+    { text: "データベース", link: "/database/overview" },
   ];
 }
 
@@ -60,7 +61,9 @@ function defineGameplaySidebarItems(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "はじめる", link: "manual/getting-started" },
         { text: "序盤の動き方", link: "manual/tutorial" },
-        { text: "土地保護", link: "manual/protection"}
+        { text: "土地保護", link: "manual/protection"},
+        { text: "実績・二つ名", link: "manual/nickname"},
+        { text: "MineStack", link: "manual/minestack"}
       ],
     },
     {
