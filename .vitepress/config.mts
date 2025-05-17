@@ -78,7 +78,8 @@ function defineCommandSidebarItems(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "チャット系", link: "chat-category" },
         { text: "移動系", link: "movement-category" },
-        { text: "保護系", link: "protection-category" }
+        { text: "保護系", link: "protection-category" },
+        { text: "SeichiAssist", link: "seichiassist" }
       ],
     },
   ];
