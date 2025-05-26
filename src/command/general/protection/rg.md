@@ -73,4 +73,3 @@ footer: true
 | `vine-growth` | ツタが伸びるかどうか |
 | `soil-dry` | 耕地が乾くかどうか |
 | `time-lock` | 時間を固定する |
-| `teleport` | テレポートできるかどうか |
