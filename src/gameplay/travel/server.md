@@ -16,13 +16,19 @@ footer: true
 
 ### [アルカディアサーバー](https://s1.map.gigantic.seichi.click/?worldname=world_2)
 
+![](/images/tutorial/s1.png)
+
 プレイヤー数が一番多く，活気のあるサーバーです．
 
 ### [エデンサーバー](https://s2.map.gigantic.seichi.click/?worldname=world_2)
 
+![](/images/tutorial/s2.png)
+
 アルカディアより静かな為落ち着いて整地，建築ができます．
 
 ### [ヴァルハラスーバー](https://s3.map.gigantic.seichi.click/?worldname=world_2)
+
+![](/images/tutorial/s3.png)
 
 メインワールドに雪の降る様子が幻想的なサーバーです．
 
