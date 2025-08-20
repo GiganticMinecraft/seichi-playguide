@@ -82,7 +82,6 @@ pnpm install
     sidebar: true
     aside: false
     lastUpdated: false
-
     footer: true
     --- 
     ```
