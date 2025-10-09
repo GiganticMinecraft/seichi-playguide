@@ -4,7 +4,7 @@
     "name": "GiganticMinecraft",
     "url": "https://seichi.click"
   },
-  "packageManager": "pnpm@10.17.1",
+  "packageManager": "pnpm@10.18.0",
   "license": "MIT",
   "scripts": {
     "dev": "vitepress dev",
