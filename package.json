@@ -16,7 +16,7 @@
     "lint:fix": "biome lint --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "^2.0.0",
     "vitepress": "^1.6.3"
   },
   "pnpm": {
