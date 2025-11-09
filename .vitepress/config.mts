@@ -1,4 +1,4 @@
-import { type DefaultTheme, type HeadConfig, defineConfig } from "vitepress";
+import { type DefaultTheme, defineConfig, type HeadConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,10 +6,13 @@ export default defineConfig({
   description: "ギガンティック☆整地鯖の遊び方や基本情報をまとめた総合ガイド",
   srcDir: "./src",
   lastUpdated: true,
+  head: defineHead(),
   themeConfig: {
     logo: { src: "/assets/server-icon.png" },
     nav: defineNav(),
-    lastUpdatedText: "最終更新日",
+    lastUpdated: {
+      text: "最終更新日",
+    },
     aside: false,
     sidebar: {
       "/gameplay/": { base: "/gameplay/", items: defineGameplaySidebarItems() },
