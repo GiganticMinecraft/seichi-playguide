@@ -1,8 +1,13 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.3.4/schema.json",
   "files": {
-    "include": ["*.tsx", "*.ts", "*.mts", "*.md"],
-    "ignore": ["**/node_modules/**"]
+    "includes": [
+      "**/*.tsx",
+      "**/*.ts",
+      "**/*.mts",
+      "**/*.md",
+      "!**/node_modules"
+    ]
   },
   "formatter": {
     "enabled": true,
@@ -18,9 +23,7 @@
       "quoteStyle": "double"
     }
   },
-  "organizeImports": {
-    "enabled": true
-  },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "linter": {
     "enabled": true,
     "rules": {
