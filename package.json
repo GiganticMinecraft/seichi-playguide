@@ -26,6 +26,12 @@
     ],
     "ignoredBuiltDependencies": [
       "esbuild"
-    ]
+    ],
+    "overrides": {
+      "vite@^5": "^5.4.21",
+      "preact@^10": "^10.27.3",
+      "rollup@^4": "^4.59.0",
+      "mdast-util-to-hast@^13": "^13.2.1"
+    }
   }
 }
