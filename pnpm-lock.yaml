@@ -9,7 +9,7 @@ overrides:
   preact@^10: ^10.27.3
   rollup@^4: ^4.59.0
   mdast-util-to-hast@^13: ^13.2.1
-  postcss@^8: 8.5.18
+  postcss@^8: 8.5.21
 
 importers:
 
@@ -20,7 +20,7 @@ importers:
         version: 2.5.5
       vitepress:
         specifier: ^1.6.3
-        version: 1.6.4(@algolia/client-search@5.35.0)(postcss@8.5.18)(search-insights@2.17.3)
+        version: 1.6.4(@algolia/client-search@5.35.0)(postcss@8.5.21)(search-insights@2.17.3)
 
 packages:
 
@@ -776,8 +776,8 @@ packages:
     resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
     engines: {node: '>=12'}
 
-  postcss@8.5.18:
-    resolution: {integrity: sha512-xdB1oSLHbz1vRWgCDalrCqEFTWzFlhqFC5tIHLMOSUIjhm3XXQ1qrFy8S/ESr1JYRRXqM3c1QFiMZUJdUTqyMQ==}
+  postcss@8.5.21:
+    resolution: {integrity: sha512-v4sDNP3fdNiWMfabO7OwOQdOX8TiQSztKyT1Wj0w+j7LDallJThJRBBBmzVGyYj0crMh7jlV4zepPkiNu9UwDQ==}
     engines: {node: ^10 || ^12 || >=14}
 
   preact@10.28.4:
@@ -903,7 +903,7 @@ packages:
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
-      postcss: 8.5.18
+      postcss: 8.5.21
     peerDependenciesMeta:
       markdown-it-mathjax3:
         optional: true
@@ -1360,7 +1360,7 @@ snapshots:
       '@vue/shared': 3.5.18
       estree-walker: 2.0.2
       magic-string: 0.30.17
-      postcss: 8.5.18
+      postcss: 8.5.21
       source-map-js: 1.2.1
 
   '@vue/compiler-ssr@3.5.18':
@@ -1599,7 +1599,7 @@ snapshots:
 
   picomatch@4.0.4: {}
 
-  postcss@8.5.18:
+  postcss@8.5.21:
     dependencies:
       nanoid: 3.3.16
       picocolors: 1.1.1
@@ -1727,13 +1727,13 @@ snapshots:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
-      postcss: 8.5.18
+      postcss: 8.5.21
       rollup: 4.59.0
       tinyglobby: 0.2.16
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitepress@1.6.4(@algolia/client-search@5.35.0)(postcss@8.5.18)(search-insights@2.17.3):
+  vitepress@1.6.4(@algolia/client-search@5.35.0)(postcss@8.5.21)(search-insights@2.17.3):
     dependencies:
       '@docsearch/css': 3.8.2
       '@docsearch/js': 3.8.2(@algolia/client-search@5.35.0)(search-insights@2.17.3)
@@ -1754,7 +1754,7 @@ snapshots:
       vite: 6.4.3
       vue: 3.5.18
     optionalDependencies:
-      postcss: 8.5.18
+      postcss: 8.5.21
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/node'
