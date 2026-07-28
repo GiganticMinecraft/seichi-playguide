@@ -28,10 +28,11 @@
       "esbuild"
     ],
     "overrides": {
-      "vite@^5": "^6.4.2",
+      "vite@^5": "6.4.3",
       "preact@^10": "^10.27.3",
       "rollup@^4": "^4.59.0",
-      "mdast-util-to-hast@^13": "^13.2.1"
+      "mdast-util-to-hast@^13": "^13.2.1",
+      "postcss@^8": "8.5.10"
     }
   }
 }
