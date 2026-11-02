@@ -1,4 +1,5 @@
 ---
+
 title: MineStack
 editLink: true
 navbar: true

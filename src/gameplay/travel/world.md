@@ -1,4 +1,5 @@
 ---
+
 title: ワールド間移動
 editLink: true
 navbar: true

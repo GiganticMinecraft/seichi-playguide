@@ -1,4 +1,5 @@
 ---
+
 title: /hat
 editLink: true
 navbar: true

@@ -1,4 +1,5 @@
 ---
+
 title: /stick
 editLink: true
 navbar: true

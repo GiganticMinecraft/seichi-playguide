@@ -1,4 +1,5 @@
 ---
+
 title: チャット系
 editLink: true
 navbar: true
@@ -10,8 +11,8 @@ footer: true
 
 # チャット系
 
-| コマンド名 | 説明 |
-| ---- | :----: |
+| コマンド名                          |                       説明                       |
+| ----------------------------------- | :----------------------------------------------: |
 | [/tell](/command/general/chat/tell) | 指定したプレイヤーに対してメッセージを送信します |
-| [/ch](/command/general/chat/ch) | チャンネルチャット機能を利用します |
-| [/jp](/command/general/chat/jp) | 日本語チャットの有効・無効を切り替えます |
+| [/ch](/command/general/chat/ch)     |        チャンネルチャット機能を利用します        |
+| [/jp](/command/general/chat/jp)     |     日本語チャットの有効・無効を切り替えます     |

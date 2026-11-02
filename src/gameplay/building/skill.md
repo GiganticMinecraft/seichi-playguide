@@ -1,4 +1,5 @@
 ---
+
 title: スキルシステム
 editLink: true
 navbar: true

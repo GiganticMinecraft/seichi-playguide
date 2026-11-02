@@ -1,4 +1,5 @@
 ---
+
 title: エフェクト
 editLink: true
 navbar: true
