@@ -1,4 +1,5 @@
 ---
+
 title: 実績・二つ名
 editLink: true
 navbar: true
@@ -34,7 +35,7 @@ footer: true
 
 ![](/images/nickname/nickname-setting.png)
 
-----
+---
 
 中央のアイコンからは実績から取得した二つ名を選択することができます．
 

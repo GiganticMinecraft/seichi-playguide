@@ -1,4 +1,5 @@
 ---
+
 title: /mvspawn
 editLink: true
 navbar: true

@@ -1,4 +1,5 @@
 ---
+
 title: 建築レベル
 editLink: true
 navbar: true

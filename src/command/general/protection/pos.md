@@ -1,4 +1,5 @@
 ---
+
 title: //pos1, //pos2
 editLink: true
 navbar: true

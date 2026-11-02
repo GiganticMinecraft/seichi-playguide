@@ -1,4 +1,5 @@
 ---
+
 title: /spectator
 editLink: true
 navbar: true
