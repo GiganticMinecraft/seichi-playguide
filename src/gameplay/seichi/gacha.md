@@ -1,4 +1,5 @@
 ---
+
 title: ガチャシステム
 editLink: true
 navbar: true

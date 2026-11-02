@@ -14,8 +14,8 @@ seichi-playguide への貢献方法をまとめたものです．
 
 このプロジェクトは Mise 及び Git を必要とします．
 
-* Mise: [公式サイトのインストール手順 (英語)](https://mise.jdx.dev/getting-started.html#installing-mise-cli) を参考にインストールしてください
-* Git: [公式サイトのインストールページ (英語)](https://git-scm.com/downloads) を参考にインストールしてください
+- Mise: [公式サイトのインストール手順 (英語)](https://mise.jdx.dev/getting-started.html#installing-mise-cli) を参考にインストールしてください
+- Git: [公式サイトのインストールページ (英語)](https://git-scm.com/downloads) を参考にインストールしてください
 
 ### Git リポジトリをクローン
 
@@ -60,28 +60,28 @@ pnpm install
 
 - ドキュメントページ:
 
-    ```markdown
-    ---
-    title:
-    editLink: true
-    navbar: true
-    sidebar: true
-    aside: false
-    lastUpdated: true
-    footer: true
-    ---
-    ```
+  ```markdown
+  ---
+  title:
+  editLink: true
+  navbar: true
+  sidebar: true
+  aside: false
+  lastUpdated: true
+  footer: true
+  ---
+  ```
 
 - コマンドガイドページ:
 
-    ```markdown
-    ---
-    title: /
-    editLink: true
-    navbar: true
-    sidebar: true
-    aside: false
-    lastUpdated: false
-    footer: true
-    --- 
-    ```
+  ```markdown
+  ---
+  title: /
+  editLink: true
+  navbar: true
+  sidebar: true
+  aside: false
+  lastUpdated: false
+  footer: true
+  ---
+  ```

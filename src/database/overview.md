@@ -1,4 +1,5 @@
 ---
+
 title: データベース
 editLink: true
 navbar: true

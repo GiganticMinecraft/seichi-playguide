@@ -1,4 +1,5 @@
 ---
+
 title: Observer
 editLink: true
 navbar: true
@@ -18,7 +19,7 @@ footer: true
 
 :::
 
-| コマンド名 | 説明 |
-| ---- | :----: |
-| [/obs](/command/role/observer/obs) | ObserverUtils を使用し，修繕依頼等を提出します |
+| コマンド名                                                   |                                説明                                 |
+| ------------------------------------------------------------ | :-----------------------------------------------------------------: |
+| [/obs](/command/role/observer/obs)                           |           ObserverUtils を使用し，修繕依頼等を提出します            |
 | [/spectatortheater](/command/role/observer/spectatortheater) | SpectatorTheater を使用し，一時的にスペクテイターモードを使用します |

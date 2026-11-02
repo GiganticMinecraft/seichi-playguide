@@ -1,4 +1,5 @@
 ---
+
 title: トレードシステム
 editLink: true
 navbar: true
@@ -34,4 +35,3 @@ footer: true
 トレードを受け付けたくない場合は、`/trade toggle` コマンドで自動承認の切り替えを行うことができます。
 
 :::
-

@@ -1,4 +1,5 @@
 ---
+
 title: マナシステム
 editLink: true
 navbar: true
