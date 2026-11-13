@@ -1,4 +1,5 @@
 ---
+
 title: /hub
 editLink: true
 navbar: true

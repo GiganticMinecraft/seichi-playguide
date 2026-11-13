@@ -1,4 +1,5 @@
 ---
+
 title: /spawn
 editLink: true
 navbar: true

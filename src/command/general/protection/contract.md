@@ -1,4 +1,5 @@
 ---
+
 title: //contract
 editLink: true
 navbar: true

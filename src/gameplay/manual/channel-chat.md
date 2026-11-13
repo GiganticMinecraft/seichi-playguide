@@ -1,4 +1,5 @@
 ---
+
 title: チャンネルチャット
 editLink: true
 navbar: true
