@@ -12,6 +12,7 @@ image:
 src: /assets/server-banner.png
 alt: ギガンティック☆整地鯖のロゴ
 actions:
+
 - theme: brand
   text: ゲームプレイガイド - 初めての方はこちら
   link: /gameplay/manual/getting-started

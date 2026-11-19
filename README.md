@@ -10,7 +10,6 @@
 
 本ガイドの編集ガイドは [CONTRIBUTING.md](./CONTRIBUTING.md) を参照してください．
 
-
 ## ライセンス
 
 本ガイドは [MIT License](./LICENSE) の元で公開されています．
