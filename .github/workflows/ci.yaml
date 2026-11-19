@@ -27,6 +27,11 @@ jobs:
       - name: Install dependencies
         run: pnpm i --frozen-lockfile
 
+      - name: Check Biome configuration migration
+        run: |
+          pnpm biome migrate --write
+          git diff --exit-code -- biome.jsonc
+
       - name: Check Formatter and Linter
         run: pnpm biome ci
 
