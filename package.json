@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.0.0",
-    "vitepress": "^1.6.3"
+    "vitepress": "^2.0.0-alpha.21"
   }
 }
