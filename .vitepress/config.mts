@@ -58,7 +58,7 @@ export default defineConfig({
           },
         },
         async _render(src, env, md) {
-          const html = await md.render(src, env);
+          const html = await md.renderAsync(src, env);
           // データベースの場合は、検索結果を表示しない
           if (env.relativePath.startsWith("database/")) return "";
           return html;
