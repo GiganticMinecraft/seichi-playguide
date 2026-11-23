@@ -12,6 +12,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: Configure Git default branch
+        run: git config --global init.defaultBranch main
+
       - uses: actions/checkout@v7
 
       - uses: pnpm/action-setup@v6
