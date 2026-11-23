@@ -6,4 +6,5 @@ overrides:
   postcss@^8: 8.5.32
 allowBuilds:
   '@biomejs/biome': true
-  esbuild: true
+patchedDependencies:
+  vitepress@1.6.4: patches/vitepress@1.6.4.patch
