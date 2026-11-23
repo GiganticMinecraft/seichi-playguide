@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.0.0",
+    "esbuild": "0.25.12",
     "vitepress": "^1.6.3"
   }
 }
