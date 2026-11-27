@@ -3,5 +3,13 @@
   "extends": [
     "github>GiganticMinecraft/renovate-config",
     "customManagers:biomeVersions"
+  ],
+  "packageRules": [
+    {
+      "description": "Update Biome and its configuration schema together",
+      "matchPackageNames": ["@biomejs/biome"],
+      "groupName": "biome",
+      "groupSlug": "biome"
+    }
   ]
 }
