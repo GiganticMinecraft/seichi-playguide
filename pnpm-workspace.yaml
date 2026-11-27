@@ -3,6 +3,6 @@ overrides:
   preact@^10: ^11.0.0
   rollup@^4: ^4.59.0
   mdast-util-to-hast@^13: ^13.2.1
-  postcss@^8: 8.5.32
+  postcss@^8: 8.5.33
 allowBuilds:
   '@biomejs/biome': true
